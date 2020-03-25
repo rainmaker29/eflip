@@ -5,6 +5,63 @@ html, body{
 background-repeat: no-repeat;
 }
 
+.box {
+
+border-radius: 25px;
+border: 2px solid #ffffff;
+padding: 20px;
+width: 90%;
+height: 400px;
+}
+.column1 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+.column2 {
+  float: left;
+  width: 60%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column3 {
+
+float : left;
+width: 50%;
+padding: 5px;
+
+}
+
+.column4 {
+
+float : right;
+width: 50%;
+padding: 5px;
+
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
 a {
   color: #00d1b2;
 }
@@ -74,8 +131,8 @@ a.nav-item:hover {
 }
 
 .title {
-	color: #fff;
-	text-align: left;
+
+
 	margin-bottom: 2rem;
 }
 
