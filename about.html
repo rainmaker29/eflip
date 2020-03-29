@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>e-flip</title>
+	<title>About</title>
 	<!-- css files -->
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
@@ -13,6 +13,19 @@
 	<meta name="author" content="Amaan">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
 #lab {
 	width: 100%;
 	overflow: hidden;
@@ -82,16 +95,16 @@ h1 {
 
 .lab_item {
 	width: 200px;
-	height: 230px;
+	height: 200px;
 	position: relative;
 	display: inline-block;
 }
 
 .hexagon2 {
 	position: absolute;
-	width: 100%;
-	height: 400px;
-	top: -85px;
+	width: 110%;
+	height: 400%;
+
 }
 
 .hexagon {
@@ -117,36 +130,25 @@ h1 {
 	-ms-transform: rotate(-60deg);
 	transform: rotate(-60deg); */
 }
-
 .hexagon-in2 {
-	/* -webkit-box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48);
-	box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48); */
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
+	overflow: visible;
+	width: 100%%;
+	height: 34%;
 	background-repeat: no-repeat;
 	background-position: 50%;
 
-	-webkit-background-size: 125%;
-	-moz-background-size: 125%;
-	background-size: 125%;
-	visibility: visible;
-/*
-	-webkit-transform: rotate(-60deg);
-	-moz-transform: rotate(-60deg);
-	-o-transform: rotate(-60deg);
-	-ms-transform: rotate(-60deg);
-	transform: rotate(-60deg);
 
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease; */
+
+	background-size: 100%;
+	visibility: visible;
+
+
 }
 
+
+
 .hexagon-in2:hover {
-	-webkit-box-shadow: inset 0 0 0 0px #B0DAD4;
+
 	box-shadow: inset 0 0 0 0px #B0DAD4;
 }
 
@@ -164,42 +166,61 @@ h1 {
 	margin-top: -55px;
 } */
 .lab_item:nth-child(1) {
-margin-top: -55%;
+margin-top: 55%;
+margin-left:0%;
 }
 .lab_item:nth-child(2) {
 
-	margin-left: 0%;
+	margin-left: 3%;
 	margin-top: 10%;
 }
 .lab_item:nth-child(3) {
-	margin-top: 10%;
+	margin-top: 15%;
+	margin-left:0%;
+
 }
 .lab_item:nth-child(4) {
 	margin-top: 8%;
+	margin-left:4%;
 }
 .lab_item:nth-child(5) {
-	margin-top: 10%;
+	margin-top: 18%;
+	margin-left:2%;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1074px) {
 	#lab {
 
 	width: 100%;
 }
 .hexagon2 {
 	position: absolute;
-	width: 90%;
+	width: 95%;
 	height: 400px;
 
 }
+.hexagon-in2 {
+	overflow: visible;
+	width: 100%%;
+	height: 65%;
+	background-repeat: no-repeat;
+	background-position: 50%;
 
+
+
+	background-size: 100%;
+	visibility: visible;
+
+
+}
 .lab_item:nth-child(1) {
 
-	margin-top: 15%;
+	margin-top: 35%;
+
 }
 
 .lab_item:nth-child(2) {
-	margin-left: 40%;
+	margin-left: 35%;
 	margin-top: -13%;
 }
 .lab_item:nth-child(3) {
@@ -208,13 +229,13 @@ margin-top: -55%;
 }
 .lab_item:nth-child(4) {
 
-	margin-left: 45%;
+	margin-left: 40%;
 	margin-top: -13%;
 }
 .lab_item:nth-child(5) {
 
 	margin-top: -15%;
-	margin-left: 0%;
+	margin-left: 3%;
 }
 
 
@@ -225,20 +246,24 @@ margin-top: -55%;
 @media (max-width: 820px) {
 	.lab_item:nth-child(1) {
 
+		margin-top: 50%;
+
 }
+
+
 .lab_item:nth-child(2) {
-margin-left: 45%;
-margin-top: 55%;
+margin-left: 40%;
+margin-top: 45%;
 }
 .lab_item:nth-child(3) {
-margin-top: 55%;
+margin-top: 45%;
 }
 .lab_item:nth-child(4) {
-	margin-left: 45%;
-	margin-top: 55%;
+	margin-left: 40%;
+	margin-top: 50%;
 }
 .lab_item:nth-child(5) {
-margin-top: 55%;
+margin-top: 45%;
 margin-left: 0%;
 }
 .lab_item {
@@ -252,6 +277,20 @@ margin-left: 0%;
 	position: absolute;
 	width: 55%;
 	height: 400px;
+
+}
+.hexagon-in2 {
+	overflow: visible;
+	width: 100%%;
+	height: 55%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+
+
+	background-size: 100%;
+	visibility: visible;
+
 
 }
 /* .lab_item:nth-child(n+4) {
@@ -289,31 +328,49 @@ margin-left: 0%;
 	height: 400px;
 	top: -85px;
 }
+
+
+.hexagon-in2 {
+	overflow: visible;
+	width: 100%%;
+	height: 39%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+
+
+	background-size: 100%;
+	visibility: visible;
+
+
+}
 .lab_item:nth-child(1) {
 	margin-left: 0px;
+	margin-top:80%;
 }
 
 .lab_item:nth-child(2) {
-	margin-left: 40%;
-	margin-top: 55%;
+	margin-left: 38%;
+	margin-top: 45%;
 }
 
 .lab_item:nth-child(3) {
 	margin-left:0%;
-	margin-top: 55%;
+	margin-top: 45%;
 }
 .lab_item:nth-child(4) {
-	margin-left: 45%;
-	margin-top: 55%;
+	margin-left: 40%;
+	margin-top: 45%;
 }
 .lab_item:nth-child(5) {
-	margin-top: 55%;
-	margin-left:0%;
+	margin-top: 45%;
+	margin-left:2%;
 }
 
 }
 
 @media (max-width: 450px) {
+
 	#lab article {
 		padding-top: 1em;
 		width: 100%;
@@ -332,26 +389,42 @@ margin-left: 0%;
 	height: 400px;
 
 }
+
+.hexagon-in2 {
+	overflow: visible;
+	width: 100%%;
+	height: 25%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+
+
+	background-size: 100%;
+	visibility: visible;
+
+
+}
+
 .lab_item:nth-child(1) {
 	margin-left: 0px;
-	margin-top: -80%;
+	margin-top: 120%;
 }
 .lab_item:nth-child(2) {
-	margin-left: 40%;
-	margin-top: 55%;
+	margin-left: 38%;
+	margin-top: 40%;
 }
 .lab_item:nth-child(3) {
 
-	margin-top: 55%;
+	margin-top: 40%;
 }
 .lab_item:nth-child(4) {
 
 	margin-left: 40%;
-	margin-top: 55%;
+	margin-top: 40%;
 }
 .lab_item:nth-child(5) {
 
-	margin-top: 55%;
+	margin-top: 35%;
 }
 }
 
@@ -411,9 +484,10 @@ margin-left: 0%;
 				<a href="#"><img src="assets/img/latest.png"></a>
 			</div>
 			 -->
-
+<div  style="margin-top:0%;margin-bottom:0%;">
+	<center><p style="color:yellow;font-size:8vw;">Team Talk... </p></center>
 			<div class="row">
-  <div class="abtcolumn1">
+  <div class="abtcolumn1" style="margin-top:-20%;">
 <div>
 		    <article>
 
@@ -476,10 +550,10 @@ margin-left: 0%;
 
 
 </div>
-<div> &nbsp </div><div> &nbsp </div><div> &nbsp </div>
+
 			</article>
   <div class="abtcolumn2">
-<center><p style="color:yellow;font-size:8vw;">Team Talk... </p></center>
+
 		<p style="font-size:2.5vw;margin-right:2%;">
 
 		It is well known that, the cardinal virtues of human life are wisdom,
@@ -494,18 +568,13 @@ margin-left: 0%;
 	           Hope the reader community supports us in the 	  	          coming journey. The editorial board promises the 	   	         readers that rich and trusted content in e–flip will be 	    	        delivered every month.
   </p></div>
   		</div>
+</div>
 
 
 
 
 
 
-		<!-- Projects -->
-
-
-
-
-	 <br>
 	 <!-- <div class="row">
 	 <div class="column3">
 	 <center>
@@ -560,6 +629,9 @@ margin-left: 0%;
 		<!-- Footer -->
 
 		<!-- Scripts  -->
+		<div>
+			<img src="assets/img/copter.jpg" style="width:100%;height:100%;margin-bottom:0%;margin-top:2%;overflow-x:hidden;">
+		</div>		
 		<script src="controller.js"></script>
 	</body>
 </html>
