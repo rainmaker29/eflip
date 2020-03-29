@@ -38,3 +38,10 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 ## License
 Code released under the [MIT](https://github.com/helfi92/studorlio/blob/master/LICENSE) license
 
+
+
+
+1. Homepage latest issue pic
+2. voice of people : fit 
+3. names size
+4. subscribe size
